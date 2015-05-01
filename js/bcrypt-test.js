@@ -37,11 +37,11 @@ function hashPassword (clearText) {
 function comparePassword (clearText) {
 	
 	// Eg. following will return true
-	// bcrypt.compareSync('test', '$2a$10$lzB4lxlIpmgSCGjopSOs/.zKlge6/nnx5GTy/Jlvxwcy0.cCfoISy');
-	// bcrypt.compareSync('å', '$2a$08$eXsVXsk.//WohLg7Jcn.3OPe3ryl4luJqRByOwWpwTSbTTwVZ/H2.');
+	// bcrypt.compareSync('test', 'somelongrandomstringshouldbeusedhere');
+	// bcrypt.compareSync('å', 'somelongrandomstringshouldbeusedhere');
 
 	//hash text for password "test"
-	var hash = "$2a$10$lzB4lxlIpmgSCGjopSOs/.zKlge6/nnx5GTy/Jlvxwcy0.cCfoISy"; //load hash from db for 'test'
+	var hash = "somelongrandomstringshouldbeusedhere"; //load hash from db for 'test'
 	var result = bcrypt.compareSync(clearText, hash); //bool
 	// console.log(result);
 	return result;
