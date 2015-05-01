@@ -301,4 +301,4 @@ $.ajax({
 
 jQuery AJAX Calls can also be made like this 
 We can also pass it in as a URL parameter by going to: 
-http://localhost:8080/api/users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NDY1MDViMDFmYTAzYmUwMTUxMDYwOWIiLCJuYW1lIjoiTmljayBDZXJtaW5hcmEiLCJwYXNzd29yZCI6InBhc3N3b3JkIiwiYWRtaW4iOnRydWUsIl9fdiI6MH0.ah-NFQ1967WVeN6lYNAahT7hZtshG6kw6AW3ncuJOYw
+http://localhost:8080/api/users?token=yourtokenvaluehereforjwt
